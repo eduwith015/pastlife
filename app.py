@@ -134,8 +134,8 @@ if st.button("전생 뽑기"):
                     )
 
                 st.markdown("---")
-                st.markdown("📤 친구에게 전생 결과 공유하기")
-                share_url = f"https://yourapp.streamlit.app?name={name}"
+                st.markdown("📤 친구에게 전생 사이트 공유하기")
+                share_url = f"https://pastlife.streamlit.app"
                 st.code(share_url)
                 st.caption("👆 위 링크를 복사해 친구에게 공유하세요!")
 
